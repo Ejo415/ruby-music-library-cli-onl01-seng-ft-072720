@@ -12,7 +12,7 @@ class MusicImporter
   end
   
   def import 
-    
+    files.each
   end
   
   
