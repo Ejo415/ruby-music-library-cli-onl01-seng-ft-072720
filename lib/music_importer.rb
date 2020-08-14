@@ -7,6 +7,13 @@ class MusicImporter
     
   end
   
+  def files
+  files = []
+    Dir.new(self.path).each do |file|
+      files << file if file.length > 4
+    end  
+  end
+  
   
   
   
